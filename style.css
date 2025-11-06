@@ -1,0 +1,62 @@
+/* Global Styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F5F0E6; /* warm sand beige */
+  color: #4B3B2A; /* dark soil brown */
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Header / Hero */
+header {
+  background-color: #D9B372; /* honey gold */
+  text-align: center;
+  padding: 50px 20px;
+  color: #fff;
+}
+
+header button {
+  background-color: #A3B18A; /* sage green */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Sections */
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+/* Product Cards */
+.product-card {
+  display: inline-block;
+  width: 250px;
+  margin: 20px;
+  vertical-align: top;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #4B3B2A; /* dark soil brown */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
